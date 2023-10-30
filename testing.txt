@@ -1,1 +1,17 @@
-slkadhladhlkalksd
+/// fir new repo
+
+git init
+git add .
+git commit -m "your commit"
+git branch -M main    (ap agar master men hen to main likhen )
+git remote add origin <your github repo link>
+git push -u origin main 
+
+error aye ga 
+git branch -M master 
+git remote add origin <your github repo link>
+git push -u origin master
+
+
+
+
