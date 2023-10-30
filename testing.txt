@@ -13,5 +13,12 @@ git remote add origin <your github repo link>
 git push -u origin master
 
 
+// for Changes
+
+git add .
+git commit -m " Your Change Commit"
+git push -u origin master 
+
+
 
 
