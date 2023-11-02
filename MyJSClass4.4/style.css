@@ -1,7 +1,7 @@
 h1{
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
-    border: 04px solid black;
+    border: 04px solid rgb(192, 187, 187);
     padding: 20px;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -9,27 +9,36 @@ h1{
 
     body{
         align-items: center;
-        background-color: rgb(195, 12, 167);
+        background-color: rgb(45, 16, 41);
     display: flex;
     flex-direction: column;
     justify-content: center;
     }
 
     form{
-        color:  black;
-        border: dashed black;
+        color:  rgb(255, 255, 255);
+        border: dashed rgb(164, 163, 163);
         padding: 40px;
         padding-bottom: 100px;
-        background-color: rgb(210, 83, 199);
+        background-color: rgb(48, 24, 46);
 
     
 
     }
     input{
 
-        color: black;
-        outline: 0px;
-        border: 0px;
+        color: rgb(255, 255, 255);
+        outline: 1px solid;
+        border: 1px solid;
         padding: 03px 02px;
+        background-color: transparent;
 
+    }
+    select{
+        background-color: transparent;
+        color: aliceblue;
+    }
+    button{
+        background-color: black;
+        color: aliceblue;
     }
