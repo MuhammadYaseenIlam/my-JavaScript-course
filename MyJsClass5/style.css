@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;   
+    /* row is default */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    height: 100vh;
+    gap: 10px;
+
+
+
+}
+.container__single{
+    width: 170px;
+    height: 170px;
+    border: 1px solid rgb(77, 75, 75);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 249, 229);
+    gap: 10px;
+}
